@@ -1,0 +1,19 @@
+.App__Container {
+  max-width: 100vw;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media screen and (max-width: 800px) {
+  .App_Container {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+}

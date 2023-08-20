@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&display=swap");
+.Hero {
+  height: 200vh;
+  position: relative;
+}
+
+.Hero__Back__Gate {
+  width: 100vw;
+  height: 90vh;
+}
+
+.Hero__Front__Gate {
+  position: absolute;
+  bottom: 0;
+  left: 50vw;
+  height: 60vh;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.Hero__Lantai {
+  position: absolute;
+  bottom: 100vh;
+  height: 10vh;
+  min-width: 100vw;
+  z-index: -1;
+  left: 0;
+}
+
+.Hero__Left__Gate {
+  z-index: -2;
+  position: absolute;
+  left: 50vw;
+  width: 13.5%;
+  height: 40vh;
+  bottom: 0;
+  opacity: 0.8;
+  transform: translate(-100%);
+}
+
+.Hero__Right__Gate {
+  z-index: -2;
+  width: 13.5%;
+  height: 40vh;
+  position: absolute;
+  bottom: 0;
+  right: 50vw;
+  transform: translate(100%);
+  opacity: 0.8;
+}
+
+.Hero__SaujanaLogo {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  bottom: 0;
+  height: 100vh;
+}
+.Hero__SaujanaLogo img {
+  height: 50vh;
+}
+.Hero__Background {
+  position: absolute;
+  top: 100vh;
+  z-index: -1;
+  width: 100vw;
+  opacity: 0;
+  height: 100vh;
+  transition: 0.3s ease-in;
+}
+
+.Hero__Show {
+  opacity: 1 !important;
+}
+/* 
+.Hero__ICNLogo {
+  position: absolute;
+  top: 15vh;
+  width: 8vw;
+  left: 50vw;
+  transform: translateX(-50%);
+  animation: blinkingLogo 3s ease-in infinite;
+} */
+
+@keyframes blinkingLogo {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Hero {
+    height: 200vh;
+    position: relative;
+  }
+}
+
+.Hero__ICN__Header {
+  color: #c59b3f;
+  font-family: Ewert;
+  font-size: 6rem;
+  position: absolute;
+  z-index: 3;
+  animation: blinkingICN 3s infinite linear alternate;
+  text-shadow: 0 0 10px #f8f8f8, 0 0 20px #f8f8f8, 0 0 30px;
+  bottom: 160vh;
+  left: 50vw;
+  transform: translate(-50%, 100%);
+}
+
+@media only screen and (max-height: 850px) {
+  .Hero__ICN__Header {
+    font-size: 4rem;
+    bottom: 155vh;
+  }
+}
+@media only screen and (max-height: 450px) {
+  .Hero__ICN__Header {
+    font-size: 3rem;
+    bottom: 163vh;
+  }
+}
+@keyframes blinkingICN {
+  60%,
+  70%,
+  79% {
+    opacity: 1;
+  }
+  65%,
+  67%,
+  76%,
+  78% {
+    opacity: 0.2;
+  }
+  66%,
+  69%,
+  77% {
+    opacity: 0.8;
+  }
+}
+
+.Hero__None {
+  display: none !important;
+}

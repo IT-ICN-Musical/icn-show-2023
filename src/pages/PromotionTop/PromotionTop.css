@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Alexandria");
+@import url("https://fonts.googleapis.com/css?family=Varela Round");
+
+.Promotion__Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 6%;
+}
+
+.Promotion__ICNMusical {
+  font-family: "Times";
+  font-style: italic;
+  color: #a9a9a9;
+}
+
+.Promotion__Background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.Promotion__Card {
+  display: flex;
+  line-height: 3em;
+  text-align: center;
+  justify-content: center;
+  padding: 2em;
+  background: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.9em;
+}
+
+.Promotion__Title_Saujana {
+  font-family: "Playfair Display SC";
+  font-weight: 700; /* bold */
+}
+
+.Promotion__Promotion__Heading {
+  font-family: "Playfair Display SC";
+}
+
+.Promotion__Address {
+  font-family: "Cormorant Garamond";
+  line-height: 25px;
+}
+
+.Promotion__Card__ButtonGroups {
+  margin: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond";
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 0.5rem;
+}
+
+.Promotion__Logo {
+  width: 30vw;
+}
+@media only screen and (max-width: 1100px) {
+  .Promotion__Logo {
+    width: 30vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Promotion__Logo {
+    display: none;
+  }
+  .Promotion__Card {
+    margin: auto 3vw;
+  }
+}
+
+.Promotion__Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

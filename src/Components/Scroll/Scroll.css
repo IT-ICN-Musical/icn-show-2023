@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:300,400,700");
+
+.ScrollText {
+  position: fixed;
+  top: 100vh;
+  transform: translate(-110%, -110%);
+  writing-mode: vertical-lr;
+  z-index: 3;
+  font-size: 1.3rem;
+  font-family: "Playfair Display SC";
+  animation: blinking 1s ease-in infinite;
+  font-weight: 1000;
+  left: 100vw;
+}
+.ScrollBar {
+  position: fixed;
+  top: 85vh;
+  width: 4px;
+  height: 100px;
+  background: black;
+  transform: translate(0, -110%);
+  z-index: 3;
+  font-size: 1.3rem;
+  animation: blinking 1s ease-in infinite;
+  font-weight: 1000;
+  right: 2%;
+}
+/* .ScrollBar::after {
+  content: "-";
+  writing-mode: vertical-lr;
+  color: white;
+  position: absolute;
+  left: -1vw;
+  animation: scrollPrompting 1.5s ease-in infinite;
+} */
+
+/* @keyframes scrollPrompting {
+  0% {
+    top: 0%;
+  }
+  95% {
+    top: 95%;
+  }
+} */
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

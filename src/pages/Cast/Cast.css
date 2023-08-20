@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Alexandria');
+
+.Cast {
+  height: 100vh;
+  text-align: center;
+  background: rgba(89, 114, 153, 1);
+  /* font-family : "Playfair Display SC"; */
+}
+
+.Cast__Title {
+  color: white;
+  font-weight: 900;
+  font-family : "Playfair Display SC";
+}
+
+.Cast__PressPrompt {
+  font-size: 1.5rem;
+  color: white;
+  animation: blinking 1.5s ease-out infinite;
+}
+
+.Cast__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  height: 75vh;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  font-family : "Alexandria";
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

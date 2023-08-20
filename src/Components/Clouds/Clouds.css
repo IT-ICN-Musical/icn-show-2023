@@ -1,0 +1,33 @@
+.Clouds {
+  position: relative;
+}
+
+.Clouds__Cloud {
+  width: 60vw;
+  position: absolute;
+}
+.Clouds__Cloud1 {
+  left: 0;
+
+  transform: translate(-10%, -50%);
+}
+.Clouds__Cloud2 {
+  left: 5vw;
+  transform: translateY(-50%);
+}
+.Clouds__Cloud3 {
+  left: 35vw;
+  transform: translateY(-50%);
+}
+.Clouds__Cloud4 {
+  left: 50vw;
+  transform: translateY(-50%);
+}
+.Clouds__Cloud5 {
+  left: 40vw;
+  transform: translateY(-50%);
+}
+.Clouds__Cloud6 {
+  left: 45vw;
+  transform: translateY(-50%);
+}

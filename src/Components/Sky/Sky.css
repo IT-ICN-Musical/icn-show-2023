@@ -1,0 +1,23 @@
+#sky {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(30, 152, 209, 1) 0%,
+    rgb(202, 229, 243) 50%,
+    rgba(125, 185, 232, 0.82) 100%
+  );
+  animation: changeSkyColor 3s linear infinite alternate;
+}
+@keyframes changeSkyColor {
+  0% {
+    top: -30vh;
+  }
+  100% {
+    top: -20vh;
+  }
+}

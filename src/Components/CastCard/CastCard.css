@@ -1,0 +1,21 @@
+.CastCard {
+  background: white;
+  width: max(300px, 8vw);
+  height: 55%;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  border-radius: 0.8rem;
+  transition: 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 0;
+}
+
+.CastCard:hover {
+  transform: scale(1.03);
+}
+
+.CastCard__Photo {
+  max-width: 90%;
+}

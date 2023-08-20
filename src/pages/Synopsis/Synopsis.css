@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Alexandria");
+/* https://fonts.google.com/specimen/Playfair+Display+SC */
+
+.Synopsis__Sinopsis1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.Synopsis__Sinopsis1__Image {
+  height: 70vh;
+}
+
+.Synopsis__Sinopsis1__Texts {
+  width: 40vw;
+  height: 60vh;
+  font-family: "Playfair Display SC";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Synopsis__Sinopsis1__Texts__Title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #894100;
+  font-family: "Playfair Display SC";
+  font-weight: 700;
+  /* font-style: "Bold 700"; */
+}
+
+.Synopsis__Sinopsis1__Texts__Body {
+  width: 40vw;
+  height: 60vh;
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify; /* For Edge */
+  text-align-last: center;
+  font-family: "Cormorant Garamond";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-style: italic; */
+}
+
+/* Sinopsis2 */
+
+.Synopsis__Sinopsis2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Cormorant Garamond";
+
+  column-gap: 3rem;
+}
+
+.Synopsis__Sinopsis2__Image {
+  height: 70vh;
+}
+
+.Synopsis__Sinopsis2__Texts {
+  width: 40vw;
+  height: 60vh;
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify; /* For Edge */
+  text-align-last: center;
+  display: flex;
+  align-items: center;
+}
+
+/* Sinopsis3 */
+
+.Synopsis__Sinopsis3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Cormorant Garamond";
+  column-gap: 3rem;
+}
+
+.Synopsis__Sinopsis3__Texts {
+  width: 40vw;
+  /* height: 60vh; */
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify; /* For Edge */
+  text-align-last: center;
+  font-family: "Cormorant Garamond";
+}
+
+.Synopsis__Divider {
+  width: 50vw;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+.Synopsis__Divider__Container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1250px) {
+  .Synopsis__Container img {
+    height: 35vh;
+  }
+
+  .Synopsis__Sinopsis1__Texts,
+  .Synopsis__Sinopsis2__Texts,
+  .Synopsis__Sinopsis3__Texts,
+  .Synopsis__Sinopsis1__Texts__Title,
+  .Synopsis__Sinopsis1__Texts__Body {
+    width: 90vw;
+    height: auto;
+  }
+  .Synopsis__Sinopsis1__Texts__Title {
+    margin-bottom: 15px;
+  }
+
+  .Synopsis__Sinopsis1,
+  .Synopsis__Sinopsis3 {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .Synopsis__Sinopsis2 {
+    flex-direction: column-reverse;
+    row-gap: 2rem;
+  }
+  .Synopsis__Divider {
+    height: 10vh !important;
+    width: auto;
+  }
+}
