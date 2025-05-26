@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Promotion.css";
 
-import Button from "../../components/Button";
+import Button from "../../Components/Button";
 
 import BackgroundTicket from "../../assets/BackgroundTicket.png";
 import SaujanaLogo from "../../assets/SaujanaLogo.png";

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sky from "../../components/Sky";
+import Sky from "../../Components/Sky";
 import GateBelakang from "../../assets/school/GateBelakang.png";
 import GateDepan from "../../assets/school/GateDepan.png";
 import GateKiri from "../../assets/school/GateKiri.png";
@@ -9,7 +9,7 @@ import SaujanaLogo from "../../assets/SaujanaLogo.png";
 import Lantai from "../../assets/school/Lantai.png";
 import BackgroundTicket from "../../assets/BackgroundTicket.png";
 // import ICNLogo from "../../assets/icn-logo.png";
-import Scroll from "../../components/Scroll";
+import Scroll from "../../Components/Scroll";
 import { Parallax } from "react-scroll-parallax";
 import "./Hero.css";
 import { useScrollPosition } from "../../utils/hooks/useScrollPosition";

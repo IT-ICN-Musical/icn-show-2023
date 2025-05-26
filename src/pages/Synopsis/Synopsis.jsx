@@ -6,7 +6,7 @@ import Sinopsis3 from "../../assets/illus/Sinops3_Subj.png";
 
 import backgroundSynopsis from "../../assets/backgroundSynopsis.png";
 // import Divider from "../../assets/icons/divider2.png";
-import Clouds from "../../components/Clouds";
+import Clouds from "../../Components/Clouds";
 import "./Synopsis.css";
 export default function Synopsis() {
   return (

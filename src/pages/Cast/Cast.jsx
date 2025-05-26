@@ -1,7 +1,7 @@
 import React from "react";
 
 import dummy from "../../assets/cast/dummy.png";
-import CastCard from "../../components/CastCard";
+import CastCard from "../../Components/CastCard";
 import "./Cast.css";
 export default function Cast() {
   let castArray = [

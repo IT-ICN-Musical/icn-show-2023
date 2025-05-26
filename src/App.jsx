@@ -2,7 +2,7 @@ import Hero from "./pages/Hero";
 import Synopsis from "./pages/Synopsis";
 import Promotion from "./pages/Promotion";
 import PromotionTop from "./pages/PromotionTop";
-import Scroll from "./components/Scroll";
+import Scroll from "./Components/Scroll";
 // import Cast from "./pages/Cast";
 // import LogoPage from "./pages/LogoPage";
 import "./App.css";
